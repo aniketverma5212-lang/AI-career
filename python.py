@@ -5,7 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # Hugging Face Client
 client = InferenceClient(
-    api_key="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"
+    api_key="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"
 )
 
 # Function for Hugging Face
@@ -60,7 +60,7 @@ print(test_response.choices[0].message.content)
 # Execute Chain
 result = chain.invoke(
     {
-        "topic": "Artificial Intelligence"
+        "topic": "machine learning"
     }
 )
 
